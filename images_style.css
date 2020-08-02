@@ -1,0 +1,69 @@
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 110px;
+  height: 92px;
+}
+
+body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.butt
+{
+	margin-left: 42%;
+	margin-top: 30px;
+	border-radius: 5px;
+	border:2px;
+	padding: 10px;
+	font-family: Arial;
+	color: gray;
+	font-size: 12px;
+}
+
+input[type="submit"]:hover{box-shadow:0 1px 1px rgba(0,0,0,0.1);background-image:-webkit-linear-gradient(top,#f8f8f8,#f1f1f1);background-color:#f8f8f8;border:1px solid #c6c6c6;color:#222}
