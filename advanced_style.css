@@ -1,0 +1,56 @@
+.inp input
+{
+	margin:10px;
+	padding:10px;
+	width:500px;
+	height: 0.01px;
+}
+
+.navbar
+{
+	background-color: #f1f1f1;
+	margin:0px;
+	padding: 0px;
+	height: 60px;
+}
+
+.lab
+{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Times New Roman";
+    vertical-align: baseline;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.form
+{
+	margin:4px;
+}
+
+
+.form label{
+    display: inline-block;
+    clear: left;
+    width: 250px;
+    font-size:13px;
+    margin-left: 40px;	
+}
+input {
+  display: inline-block;
+}	
+
+input[type="submit"]
+{
+	background-color: #4d90fe;
+	color:white;
+	border:0px;
+	font-size: 11px;
+	font-weight: bold;
+	height: 27px;
+	width: 108px;
+	margin-left: 690px;
+	border-radius: 3px;
+}
